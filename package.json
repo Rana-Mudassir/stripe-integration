@@ -1,0 +1,21 @@
+{
+  "name": "stripe-integration",
+  "version": "1.0.0",
+  "description": "In this project I have integrated the Stripe Checkout with a Node.js project. I have  used  Express, EJS and the official Stripe module to create a simple page with some products that will lead the buyer to the Stripe Checkout page and then complete the payment by passing the card details and shipping address.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "stripe": "^17.3.1"
+  }
+}
